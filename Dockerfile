@@ -14,7 +14,7 @@ RUN rm -fr /app/* && \
 RUN \
 #  git clone https://github.com/webpwnized/mutillidae.git && \
   wget https://github.com/webpwnized/mutillidae/archive/refs/tags/2.8.59.tar.gz && \
-  tar -zxvf 2.8.69.tar.gz && \
+  tar -zxvf 2.8.59.tar.gz && \
   rm -rf /app/* && \
   cp -r /mutillidae-2.8.59/* /app  && \
   rm -rf /mutillidae-2.8.59  && \
